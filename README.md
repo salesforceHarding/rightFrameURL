@@ -1,4 +1,4 @@
-MyDomain-Sample
+Right Frame URL
 ====================
 
 Demonstration to customize the Salesforce Login Right Frame
