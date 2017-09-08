@@ -1,18 +1,15 @@
 <?php
 
-$whichOrg = $_GET["org"];
-
-switch ($whichOrg) {
+switch ($_GET["org"]) {
     case 1:
-        static $org = "high-prod.html";
+        include_once("high-prod.html");
         break;
     case 2:
-        static $org = "customer.html";
+        include_once("customer.html");
         break;
     case 3:
-        static $org = "employee.html";
+        include_once("employee.html");
         break;
 }
 
-include_once($org);
 ?>
