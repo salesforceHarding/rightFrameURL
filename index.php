@@ -2,7 +2,7 @@
 
 $whichOrg = $_GET["org"];
 
-switch ($i) {
+switch ($whichOrg) {
     case "high-prod":
         static $org = "high-prod.html";
         break;
