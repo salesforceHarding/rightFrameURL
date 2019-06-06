@@ -1,7 +1,7 @@
 Right Frame URL
 ====================
 
-Demonstration to customize the Salesforce Login Right Frame
+Demonstration to brand the Salesforce Login
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/salesforceHarding/rightFrameURL.git)
 

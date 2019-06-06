@@ -1,6 +1,6 @@
 <?php
 
-// You can switch you rightside image/test depending on the org by passing an org ID
+// You can switch you rightside image/test depending on the org by passing an org number.
 switch ($_GET["org"]) {
     case 1:
         include_once("org1.html");
