@@ -1,14 +1,15 @@
 <?php
 
+// You can switch you rightside image/test depending on the org by passing an org ID
 switch ($_GET["org"]) {
     case 1:
-        include_once("high-prod.html");
+        include_once("org1.html");
         break;
     case 2:
-        include_once("customer.html");
+        include_once("org2.html");
         break;
     case 3:
-        include_once("employee.html");
+        include_once("org3.html");
         break;
 }
 
